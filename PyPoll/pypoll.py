@@ -70,11 +70,10 @@ for candidate_name, votes in candidates.items():
     
 
 # Print the analysis results 
-print(output)
+print (output)
 
 
 # Export the output as text file
 with open(analysis_txt, "w") as text_file:
     text_file.write(output)
 
-    print(f"Analysis results exported to: {analysis_txt}")
