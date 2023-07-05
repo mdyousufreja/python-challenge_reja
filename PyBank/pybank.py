@@ -57,7 +57,7 @@ Output = (f"Financial Analysis\n"
           f"Greatest Decrease in Profits: {greatest_decrease[0]} (${greatest_decrease[1]})\n")
 
 
-# Step 7: Print the analysis results
+# Print the analysis results
 print(Output)
 
 
